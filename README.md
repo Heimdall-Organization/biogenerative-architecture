@@ -1,4 +1,4 @@
-# BioGenerative Cognition Crystal
+# D'Hawk's BioGenerative Cognition Crystal
 
 <p align="center">
   <img src="assets/seven-layers.png" alt="Seven Layer Architecture" width="700"/>
