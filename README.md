@@ -658,11 +658,5 @@ Apache 2.0 License - see [LICENSE](LICENSE)
 </p>
 
 <p align="center">
-  <a href="docs/architecture.md">Explore Architecture →</a> •
-  <a href="examples/glycolysis.wpe">View Examples →</a> •
-  <a href="docs/dna-encoding.md">Learn DNA Encoding →</a>
-</p>
-
-<p align="center">
   ⭐ Star this repo if you believe in computational biology!
 </p>
