@@ -395,14 +395,12 @@ Load this as reference docs in a claude project
 ### View Examples in WPE/TME Notation
 
 ```bash
-# Glycolysis pathway (pure WPE notation)
-cat examples/glycolysis.wpe
+# Spleen Regulatory Walkthrough (pure WPE notation)
+cat https://github.com/Heimdall-Organization/biogenerative-architecture/blob/main/spleen_regulatory_walkthrough.md
 
-# Gene regulatory network
-cat examples/gene_network.wpe
+# Embryonic Left Right Asymmetry Walkthrough
+cat https://github.com/Heimdall-Organization/biogenerative-architecture/blob/main/left_right_asymmetry_walkthrough.md
 
-# Multi-scale metabolism
-cat examples/metabolism_multiscale.wpe
 ```
 
 ---
