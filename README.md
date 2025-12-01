@@ -7,9 +7,9 @@
 <h3 align="center">Multi-Scale Biological AI Architecture with DNA-Encoded Computational Logic</h3>
 
 <p align="center">
-  <a href="https://researchgate.net/publication/[id]"><img src="https://img.shields.io/badge/Paper-ResearchGate-00CCBB?style=for-the-badge" alt="Paper"/></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License"/></a>
-  <a href="https://github.com/[user]/biogenerative-crystal/stargazers"><img src="https://img.shields.io/github/stars/[user]/biogenerative-crystal?style=for-the-badge" alt="Stars"/></a>
+  <a href="https://doi.org/10.13140/RG.2.2.31969.57448"><img src="https://img.shields.io/badge/Paper-ResearchGate-00CCBB?style=for-the-badge" alt="Paper"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache 2.0-blue?style=for-the-badge" alt="License"/></a>
+  <a href="https://github.com/Heimdall-Organization/biogenerative-architecture/stargazers"><img src="https://img.shields.io/github/stars/Heimdall-Organization/biogenerative-architecture?style=for-the-badge" alt="Stars"/></a>
 </p>
 
 <p align="center">
@@ -571,63 +571,20 @@ Treatment:8@270|-5.0 -> Mutation:2     // Drug affects DNA
 
 ### Framework
 
-- 📘 [Architecture Overview](docs/architecture.md) - Complete 7-layer explanation
-- 📙 [DNA Encoding (LYRA)](docs/dna-encoding.md) - WPE → DNA mapping
-- 📗 [Validation Protocols](docs/validation-protocols.md) - Ensuring correctness
-- 📕 [Multi-Scale Coupling](docs/multi-scale-coupling.md) - Layer interactions
+- 📘 [Architecture Overview](https://github.com/Heimdall-Organization/biogenerative-architecture/blob/docs/architecture.md) - Complete 7-layer explanation
+- 📙 [DNA Encoding (LYRA)](https://github.com/Heimdall-Organization/biogenerative-architecture/blob/docs/dna-encoding.md) - WPE → DNA mapping
+- 📗 [Validation Protocols](https://github.com/Heimdall-Organization/biogenerative-architecture/blob/docs/validation-protocols.md) - Ensuring correctness
+- 📕 [Multi-Scale Coupling](https://github.com/Heimdall-Organization/biogenerative-architecture/blob/docs/multi-scale-coupling.md) - Layer interactions
 
 ### Tutorials
 
-- 🎓 [Getting Started](docs/getting-started.md) - First biological model
-- 🚀 [Metabolic Pathways](docs/metabolic-pathways.md) - Encoding metabolism
-- 🎯 [Gene Networks](docs/gene-networks.md) - Regulatory circuits
-- 🔬 [Synthetic Biology](docs/synthetic-biology.md) - Design for labs
+- 🎓 [Getting Started](https://github.com/Heimdall-Organization/biogenerative-architecture/blob/docs/getting-started.md) - First biological model
+- 🎯 [DNA Encoding](https://github.com/Heimdall-Organization/biogenerative-architecture/blob/docs/dna-encoding.md) - DNA
 
 ### Examples
 
-- 💡 [Example Library](docs/examples.md) - 30+ biological systems
-- 🧬 [Glycolysis](examples/glycolysis.wpe) - Complete pathway
-- 🔄 [Krebs Cycle](examples/krebs_cycle.wpe) - Circular pathway
-- 🧫 [Cell Cycle](examples/cell_cycle.wpe) - Temporal regulation
+- 🧬 [Glycolysis](https://github.com/Heimdall-Organization/biogenerative-architecture/blob/docs/glycolysis.wpe) - Complete pathway
 
-
----
-
-## Python Implementation
-
-### Core Modules
-
-```python
-from biogenerative import BioSystem, Layer, DNA
-
-# Create biological system
-system = BioSystem(name="Glycolysis")
-
-# Add layers
-system.add_layer(Layer.SUBSTRATE, quantum=True, chemistry=True)
-system.add_layer(Layer.CONSTRAINTS, homeostasis=True, allometry=True)
-system.add_layer(Layer.SELECTION, evolution=True)
-system.add_layer(Layer.INFORMATION, dna_encoding=True)
-
-# Define pathway in WPE notation
-pathway_wpe = """
-HK:1@0|-5.5 {rxn="Glucose → G6P"}
-PGI:2@30|-5.0 {rxn="G6P → F6P"}
-...
-"""
-
-system.add_pathway(pathway_wpe)
-
-# Generate DNA encoding
-dna_sequence = system.to_dna(interface="LYRA")
-
-# Validate
-validation = system.validate()
-print(validation.report())
-
-# Export for synthesis
-system.export("glycolysis.gb", format="genbank")
-```
 
 ---
 
@@ -638,19 +595,18 @@ system.export("glycolysis.gb", format="genbank")
 **Abstract:** This paper presents the BioGenerative Cognition Crystal, a constraint-based generative architecture for modeling biological systems from first principles. Unlike database-driven or template-based approaches, the framework generates complete biological solutions through hierarchical constraint satisfaction across seven distinct organizational layers. Each layer encodes specific categories of constraints: substrate physics and chemistry (Layer 0), universal biological laws (Layer 1), evolutionary forces (Layer 2), information encoding including DNA (Layer 3), robustness mechanisms (Layer 4), generative optimization (Layer 5), layer coupling (Layer 6), and quantitative computation (Layer 7). Version 2.0 integrates \lyra{} (Logic Yielding Recursive Analysis) DNA capabilities based on information physics, enabling bidirectional translation between DNA sequences and functional biological models through Wave Pattern Encoding notation. The architecture implements circular causation through bidirectional layer coupling, ensuring self-consistency across all organizational levels. An eight-level validation framework systematically tests solutions against constraints spanning substrate physics through quantitative accuracy. This paper provides comprehensive documentation of theoretical foundations, architectural principles, detailed layer specifications, DNA integration methodology, and validation protocols.
 
 **[Read on ResearchGate →](https://doi.org/10.13140/RG.2.2.31969.57448)**  
-**[Download PDF →](papers/biogenerative_paper.pdf)**
+**[Download PDF →](https://github.com/Heimdall-Organization/biogenerative-architecture/blob/docs/Constraint_Based_Generative_Architecture_for_Biological_Systems.pdf)**
 
 
 
 ## Contributing
 
-We especially need expertise in:
+I especially need expertise in:
 - Wet lab validation (convert encodings to actual DNA)
 - Systems biology (validate multi-scale models)
 - Synthetic biology (design novel constructs)
 - Bioinformatics (sequence analysis tools)
 
-See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
@@ -678,16 +634,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Community
 
-- 💬 [GitHub Discussions](https://github.com/[user]/biogenerative-crystal/discussions)
-- 🐛 [Issues](https://github.com/[user]/biogenerative-crystal/issues)
+- 💬 [GitHub Discussions](https://github.com/Heimdall-Organization/biogenerative-architecture/discussions/1)
+- 🐛 [Issues](https://github.com/Heimdall-Organization/biogenerative-architecture/issues)
 - 📧 [Email](mailto:theheimdallorganization@gmail.com)
 
 ---
 
 ## Related Projects
 
-- [WPE/TME Language](https://github.com/[user]/wpe-tme-language) - Foundational notation
-- [Crystalline Language](https://github.com/[user]/crystalline-language) - Shares geometric foundation
+- [WPE/TME Language](https://github.com/Heimdall-Organization/wpe-tme-language) - Foundational notation
+- [Crystalline Language](https://github.com/Heimdall-Organization/crystalline-language) - Shares geometric foundation
 
 ---
 
@@ -698,7 +654,7 @@ Apache 2.0 License - see [LICENSE](LICENSE)
 ---
 
 <p align="center">
-  <strong>From quantum to ecosystem. From model to DNA.</strong>
+  <strong>From model to DNA.</strong>
 </p>
 
 <p align="center">
