@@ -1,9 +1,5 @@
 # D'Hawk's BioGenerative Cognition Crystal
 
-<p align="center">
-  <img src="assets/seven-layers.png" alt="Seven Layer Architecture" width="700"/>
-</p>
-
 <h3 align="center">Multi-Scale Biological AI Architecture with DNA-Encoded Computational Logic</h3>
 
 <p align="center">
