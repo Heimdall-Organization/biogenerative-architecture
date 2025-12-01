@@ -389,7 +389,7 @@ assert all(ΔG < 0 for reaction in pathway)
 
 ```bash
 git clone https://github.com/[user]/biogenerative-crystal
-cd biogenerative-crystal
+Load this as reference docs in a claude project
 ```
 
 ### View Examples in WPE/TME Notation
@@ -403,32 +403,6 @@ cat examples/gene_network.wpe
 
 # Multi-scale metabolism
 cat examples/metabolism_multiscale.wpe
-```
-
-### Run Python Modeling Framework
-
-```bash
-pip install -r requirements.txt
-
-# Model glycolysis
-python examples/glycolysis.py
-
-# Outputs:
-# - WPE/TME encoding
-# - DNA sequence (via LYRA)
-# - Validation report
-# - Energy calculations
-# - Coupling matrix
-```
-
-### Generate DNA Encoding
-
-```bash
-# Convert WPE to DNA
-python src/dna_interface.py examples/glycolysis.wpe --output glycolysis.dna
-
-# Validate DNA encoding
-python src/validation.py glycolysis.dna
 ```
 
 ---
